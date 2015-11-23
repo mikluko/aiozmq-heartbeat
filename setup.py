@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='aiozmq-heartbeat',
-    version='0.0.0',
+    version='0.0.1',
     description='Simple heartbeat implementation on top of aiozmq.rpc',
     author='Mikhail Lukyanchenko',
     author_email='ml@akabos.com',
@@ -22,5 +22,4 @@ setup(
         'msgpack-python>=0.4.6',
         'aiozmq>=0.7',
     ]
-
 )

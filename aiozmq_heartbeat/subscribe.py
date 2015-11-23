@@ -3,6 +3,7 @@ import aiozmq.rpc
 import logging
 from collections import OrderedDict
 
+
 class Handler(aiozmq.rpc.AttrHandler):
 
     def __init__(self, events, *, logger=None):
